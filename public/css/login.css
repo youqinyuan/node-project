@@ -1,0 +1,80 @@
+body{
+	background: url('/images/timg.jpg') no-repeat;
+	background-size: 100%;
+	font-size: 20px;
+}
+h2{
+	color: white;
+	height: 80px;
+	width: 280px;
+	font-weight: normal;
+	text-shadow:2px 2px 2px black;
+	letter-spacing: 4px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -400px;
+	bottom: 0;
+	margin: auto;
+}
+.box{
+	width: 480px;
+	height: 300px;
+	/*background: #FF9933*/
+	background: -webkit-linear-gradient(#FFCC00,#FF9933);
+	border-radius: 10px;
+	border: 1px solid white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.alert-box{
+	width: 400px;
+	height: 50px;
+	margin: 20px auto;
+}
+.alert-danger{
+	display: none;
+	font-size: 16px;
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 10px;
+	border: 1px solid #DCDCDC;
+	background: white;
+	text-align: center;
+	margin: 20px auto;
+	color: red;
+}
+
+.login-form{
+	margin: 30px auto;
+	width: 300px;
+	border:none;
+}
+.modal-footer{
+	margin: 20px auto;
+	width: 100px;
+}
+.form-group{
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.modal-footer{
+	margin-top: 50px;
+	width: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+.modal-footer button{
+	width: 80px;
+	height: 30px;
+	border: none;
+	border: 1px solid #DCDCDC;
+	border-radius: 7px;
+}
